@@ -1,0 +1,16 @@
+public class Charecteroccurance {
+
+	public static void main(String[] args) {
+		
+		String name="my name is sai krishna yadav";
+		// know the total number of a's predent in the stirng
+		
+		int count =name.length();
+		String acount=name.replaceAll("a","");
+		int counta=acount.length();
+		int thechar_occurence=count - counta;
+		System.out.println("the number of times it paced in is :"+ thechar_occurence);
+
+	}
+
+}
